@@ -50,7 +50,9 @@ public class Ejercicio_9 {
             
     }
     static void calcularTotalCompra(double precioProducto, double peso, String zona){
+        double costoEnvio = calcularCostoEnvio(peso, zona);
         double total = calcularCostoEnvio(peso, zona)+ precioProducto;
-        System.out.println("El costo de envío es: "+total);
+        System.out.println("El costo de envío es: "+costoEnvio);
+        System.out.println("El total a pagar es: "+total);
     }
 }
