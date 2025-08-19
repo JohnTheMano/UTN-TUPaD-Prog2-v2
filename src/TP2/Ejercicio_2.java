@@ -2,6 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+
+//Determinar el Mayor de Tres Números.
+//Escribe un programa en Java que pida al usuario tres números 
+//enteros y determine cuál es el mayor.
+
 package TP2;
 
 import java.util.Scanner;
