@@ -17,7 +17,7 @@ import java.util.Scanner;
 //ingrese el número 0, momento en el que se debe mostrar la suma
 //total de los pares ingresados.
 
-public class Ejercicio_5 {
+public class Ejercicio_05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num=1;

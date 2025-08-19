@@ -15,7 +15,7 @@ import java.util.Scanner;
 //Escribe un programa que pida al usuario ingresar 10 números enteros 
 //y cuente cuántos son positivos, negativos y cuántos son ceros.
 
-public class Ejercicio_6 {
+public class Ejercicio_06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

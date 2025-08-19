@@ -18,7 +18,7 @@ import java.util.Scanner;
 //Nacional: $5 por kg
 //Internacional: $10 por kg
 
-public class Ejercicio_9 {
+public class Ejercicio_09 {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         

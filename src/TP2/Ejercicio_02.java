@@ -11,7 +11,7 @@ package TP2;
 
 import java.util.Scanner;
 
-public class Ejercicio_2 {
+public class Ejercicio_02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);   
         int num1, num2, num3, numero_mayor;

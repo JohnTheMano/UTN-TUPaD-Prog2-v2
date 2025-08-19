@@ -19,7 +19,7 @@ import java.util.Scanner;
 //Categoría C: 20% de descuento
 //El programa debe mostrar el precio original, el descuento aplicado y el precio final
 
-public class Ejercicio_4 {
+public class Ejercicio_04 {
     public static void main(String[] args) {
         float precio,descuento;
         char categ;

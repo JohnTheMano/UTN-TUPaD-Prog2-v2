@@ -18,7 +18,7 @@ import java.util.Scanner;
 //Desde main(), solicita el precio base del producto, el porcentaje de 
 //impuesto y el porcentaje de descuento, llama al método y muestra el precio final.
 
-public class Ejercicio_8 {
+public class Ejercicio_08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double precioBase = 0;

@@ -11,7 +11,7 @@ package TP2;
 
 import java.util.Scanner;
 
-public class Ejercicio_1{
+public class Ejercicio_01{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);    
         int anio;

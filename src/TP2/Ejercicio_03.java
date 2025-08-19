@@ -14,7 +14,7 @@
 package TP2;
 import java.util.Scanner;
 
-public class Ejercicio_3 {
+public class Ejercicio_03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);   
         int edad;

@@ -16,7 +16,7 @@ import java.util.Scanner;
 //entre 0 y 10. Si el usuario ingresa un número fuera de este 
 //rango, debe seguir pidiéndole la nota hasta que ingrese un valor válido.
 
-public class Ejercicio_7 {
+public class Ejercicio_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int nota =0;
