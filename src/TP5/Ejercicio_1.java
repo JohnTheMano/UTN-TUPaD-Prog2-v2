@@ -22,9 +22,10 @@ public class Ejercicio_1 {
         System.out.println("//Segunda parte:");
         //Instanciamos un titular
         Titular titular1 = new Titular("Oscar", "26450876");
-        //Asociamos el objeto pasaporte a el objeto titular 
+        //Asociamos Bidireccionalmente titular y pasaporte 
         titular1.setPasaporte(pass);
         pass.setTitular(titular1);
+        
         //Visualizamos resultados
         System.out.println(titular1.getPasaporte().getNumero());
         titular1.getPasaporte().mostrarPasaporte();
