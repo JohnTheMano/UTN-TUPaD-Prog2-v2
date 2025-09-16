@@ -12,6 +12,7 @@ public class Cliente {
     private String nombre;
     private String dni;
     private TarjetaDeCredito tarjetaDeCredito; // Asociacion bidireccional
+    private String telefono;
 
     public Cliente(String nombre, String dni) {
         this.nombre = nombre;
@@ -45,9 +46,19 @@ public class Cliente {
         }
     }
 
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+    
+    
+
     @Override
     public String toString() {
-        return "Cliente{" + "nombre=" + nombre + ", dni=" + dni + ", tarjetaDeCredito=" + tarjetaDeCredito.getNumero() + '}';
+        return "Cliente{" + "nombre = " + nombre + ", dni = " + dni + ", tarjetaDeCredito = " + tarjetaDeCredito.getNumero() + '}';
     }
     
     

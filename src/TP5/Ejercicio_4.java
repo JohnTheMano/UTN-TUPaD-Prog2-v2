@@ -11,8 +11,7 @@ package TP5;
 public class Ejercicio_4 {
     public static void main(String[] args) {
         //instanciamos banco
-        Banco banco1 = new Banco("Galicia","20-93777916-0");
-        System.out.println(banco1);
+        Banco banco1 = new Banco("Galicia","20-93777916-0");        
         
         //instanciamos tarjeta de credito 
         TarjetaDeCredito tarjetaDeCredito1 = new TarjetaDeCredito("8302-2132-1123-1323","23/12/2029",banco1);
@@ -29,7 +28,7 @@ public class Ejercicio_4 {
         //Visualizamos resultados de Asociacion bidireccional y agregación
         System.out.println(tarjetaDeCredito1);
         
-        //asignamos tarjeta al cliente
+        
         
                 
         

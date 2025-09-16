@@ -59,7 +59,7 @@ public class TarjetaDeCredito {
 
     @Override
     public String toString() {
-        return "TarjetaDeCredito{" + "numero = " + numero + "\nfechaDeVencimiento = " + fechaDeVencimiento +"\ncliente = " + (cliente != null ? cliente.getNombre() : "Sin cliente asignado ")+"\n" + banco.getNombre() + "\nCUIT: "+banco.getCuit();
+        return "TarjetaDeCredito " + "numero : " + numero + "\nfechaDeVencimiento : " + fechaDeVencimiento +"\ncliente : " + (cliente != null ? cliente.getNombre() : "Sin cliente asignado ")+"\nBanco: " + banco.getNombre() + "\nCUIT: "+banco.getCuit();
     }
     
     
