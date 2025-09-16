@@ -60,6 +60,9 @@ public class Celular {
 
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
+        if(usuario!=null && usuario.getCelular()!= this){
+            usuario.setCelular(this);
+        }
     }  
     
     @Override

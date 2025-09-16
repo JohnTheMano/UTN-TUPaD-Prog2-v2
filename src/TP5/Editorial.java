@@ -9,20 +9,20 @@ package TP5;
  * @author Win
  */
 public class Editorial {
-    private String Nombre;
+    private String nombre;
     private String direccion;
 
     public Editorial(String Nombre, String direccion) {
-        this.Nombre = Nombre;
+        this.nombre = Nombre;
         this.direccion = direccion;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+        this.nombre = Nombre;
     }
 
     public String getDireccion() {
@@ -31,6 +31,11 @@ public class Editorial {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    @Override
+    public String toString() {
+        return "Editorial{" + "nombre=" + nombre + ", direccion=" + direccion + '}';
     }
     
     

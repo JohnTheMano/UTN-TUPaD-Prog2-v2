@@ -8,13 +8,13 @@ package TP5;
  *
  * @author Win
  */
-public class Autor {
+public class Banco {
     private String nombre;
-    private String nacionalidad;
+    private String cuit;
 
-    public Autor(String nombre, String nacionalidad) {
+    public Banco(String nombre, String cuit) {
         this.nombre = nombre;
-        this.nacionalidad = nacionalidad;
+        this.cuit = cuit;
     }
 
     public String getNombre() {
@@ -25,17 +25,17 @@ public class Autor {
         this.nombre = nombre;
     }
 
-    public String getNacionalidad() {
-        return nacionalidad;
+    public String getCuit() {
+        return cuit;
     }
 
-    public void setNacionalidad(String nacionalidad) {
-        this.nacionalidad = nacionalidad;
+    public void setCuit(String cuit) {
+        this.cuit = cuit;
     }
 
     @Override
     public String toString() {
-        return "Autor{" + "nombre=" + nombre + ", nacionalidad=" + nacionalidad + '}';
+        return "Banco{" + "nombre=" + nombre + ", cuit=" + cuit + '}';
     }
     
     
