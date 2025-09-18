@@ -10,9 +10,9 @@ package TP5;
  */
 public class Mesa {
     private String numero;
-    private String capacidad;
+    private int capacidad;
 
-    public Mesa(String numero, String capacidad) {
+    public Mesa(String numero, int capacidad) {
         this.numero = numero;
         this.capacidad = capacidad;
     }
@@ -25,18 +25,20 @@ public class Mesa {
         this.numero = numero;
     }
 
-    public String getCapacidad() {
+    public int getCapacidad() {
         return capacidad;
     }
 
-    public void setCapacidad(String capacidad) {
+    public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
 
     @Override
     public String toString() {
-        return "Mesa: " + "\nnumero: " + numero + "\n capacidad: " + capacidad;
+        return "Numero: " + numero + "\ncapacidad: " + capacidad;
     }
+
+    
     
     
    

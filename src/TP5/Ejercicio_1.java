@@ -10,26 +10,36 @@ package TP5;
  */
 public class Ejercicio_1 {
     public static void main(String[] args) {
-        //Primera parte:
+        // Primera parte: creamos y modificamos un pasaporte
         System.out.println("//Primera parte:");
-        //Instanciamos un pasaporte
+        
+        // Instanciamos un pasaporte con número, fecha de emisión, nombre y extensión de foto
         Pasaporte pass = new Pasaporte("AU27490558","12/04/2000","primera_foto",".jpg");
-        pass.mostrarPasaporte();
-        pass.setFoto("segunda_foto", ".Tiff");
+        
+        // Mostramos los datos iniciales del pasaporte  
         pass.mostrarPasaporte();
         
-        //Segunda parte:
+        // Modificamos la foto del pasaporte
+        pass.setFoto("segunda_foto", ".Tiff");
+        
+        // Mostramos los datos actualizados del pasaporte
+        pass.mostrarPasaporte();
+        
+        // Segunda parte: asociamos un titular al pasaporte (relación bidireccional)
         System.out.println("//Segunda parte:");
-        //Instanciamos un titular
+        
+        // Instanciamos un titular con nombre y DNI
         Titular titular1 = new Titular("Oscar", "26450876");
-        //Asociamos Bidireccionalmente titular y pasaporte 
+        
+        // Establecemos la asociación bidireccional entre titular y pasaporte 
         titular1.setPasaporte(pass);
         pass.setTitular(titular1);
         
-        //Visualizamos resultados
+        // Visualizamos el número del pasaporte desde el titular y mostramos el pasaporte completo
         System.out.println(titular1.getPasaporte().getNumero());
         titular1.getPasaporte().mostrarPasaporte();
         
+        // Mostramos los datos del titular y del pasaporte
         System.out.println(titular1);
         System.out.println(pass);
     }

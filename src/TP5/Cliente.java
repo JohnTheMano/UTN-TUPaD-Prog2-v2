@@ -18,7 +18,7 @@ public class Cliente {
         this.nombre = nombre;
         this.dni = dni;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
@@ -34,7 +34,13 @@ public class Cliente {
     public void setDni(String dni) {
         this.dni = dni;
     }
+    public String gettelefono() {
+        return dni;
+    }
 
+    public void settelefono(String dni) {
+        this.dni = dni;
+    }        
     public TarjetaDeCredito getTarjetaDeCredito() {
         return tarjetaDeCredito;
     }
@@ -58,7 +64,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" + "nombre = " + nombre + ", dni = " + dni + ", tarjetaDeCredito = " + tarjetaDeCredito.getNumero() + '}';
+        return "Cliente{" + "nombre = " + nombre + ", dni = " + dni + ", tarjetaDeCredito = " + (tarjetaDeCredito != null ? tarjetaDeCredito.getNumero() : "Sin tarjeta");
     }
     
     
