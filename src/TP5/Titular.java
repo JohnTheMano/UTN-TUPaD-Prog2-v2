@@ -41,6 +41,9 @@ public class Titular {
 
     public void setPasaporte(Pasaporte pasaporte) {
         this.pasaporte = pasaporte;
+        if(pasaporte != null && pasaporte.getTitular() != this){
+            pasaporte.setTitular(this);
+        }
     }
 
     @Override

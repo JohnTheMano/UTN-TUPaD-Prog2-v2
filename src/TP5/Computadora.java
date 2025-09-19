@@ -32,15 +32,14 @@ public class Computadora {
     public void setNumeroSerie(String numeroSerie) {
         this.numeroSerie = numeroSerie;
     }
-    public Propietario getPropietario() {
-        return propietario;
-    }
+    
 
-  
     public void setPlacaMadre(String modelo, String chipset) {
         this.placaMadre = new PlacaMadre(modelo,chipset);
     }
-    
+    public Propietario getPropietario() {
+        return propietario;
+    }
 
     public void setPropietario(Propietario propietario) {
         this.propietario = propietario;

@@ -65,11 +65,5 @@ public class Celular {
         }
     }  
     
-    @Override
-    public String toString() {
-        return "Celular{" + "imei=" + imei + ", marca=" + marca + ", modelo=" + modelo + ", bateria=" + bateria + ", usuario=" + usuario.getNombre() + '}';
-    }
-    
-    
     
 }

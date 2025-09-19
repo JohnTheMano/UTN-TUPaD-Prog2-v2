@@ -33,10 +33,10 @@ public class Ejercicio_1 {
         
         // Establecemos la asociación bidireccional entre titular y pasaporte 
         titular1.setPasaporte(pass);
-        pass.setTitular(titular1);
+        
         
         // Visualizamos el número del pasaporte desde el titular y mostramos el pasaporte completo
-        System.out.println(titular1.getPasaporte().getNumero());
+        System.out.println(titular1.getPasaporte().getNumero());        
         titular1.getPasaporte().mostrarPasaporte();
         
         // Mostramos los datos del titular y del pasaporte

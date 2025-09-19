@@ -19,7 +19,7 @@ public class Ejercicio_4 {
         //instanciamos cliente
         Cliente cliente1 = new Cliente("Victorio Falso","93777916");
         
-        //Asociación Cliente - Tarjeta de Crédito
+        //Asociación Bidireccional Cliente - Tarjeta de Crédito
         cliente1.setTarjetaDeCredito(tarjetaDeCredito1);
         
         //Asociación Tarjeta de Crédito - Cliente

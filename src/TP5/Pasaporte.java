@@ -21,8 +21,6 @@ public class Pasaporte {
         this.foto = new Foto(imagen,formato);
     }
     
-    
-
     public String getNumero() {
         return numero;
     }
@@ -59,6 +57,9 @@ public class Pasaporte {
 
     public void setTitular(Titular titular) {
         this.titular = titular;
+        if(titular != null && titular.getPasaporte()!= this){
+            titular.setPasaporte(this);
+        }
     }
 
     @Override

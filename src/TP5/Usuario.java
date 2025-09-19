@@ -10,14 +10,20 @@ package TP5;
  */
 public class Usuario {
     private String nombre;
-    private String dni;
+    private int dni;
     private Celular celular;
+    private String email;
 
-    public Usuario(String nombre, String dni) {
+    public Usuario(String nombre, int dni) {
         this.nombre = nombre;
-        this.dni = dni;
-    }    
-    
+        this.dni = dni; 
+    }
+
+    public Usuario(String nombre, String email) {
+        this.nombre = nombre;
+        this.email = email;
+    }
+            
     public String getNombre() {
         return nombre;
     }
@@ -26,11 +32,11 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getDni() {
+    public int getDni() {
         return dni;
     }
 
-    public void setDni(String dni) {
+    public void setDni(int dni) {
         this.dni = dni;
     }
 
@@ -42,6 +48,18 @@ public class Usuario {
         this.celular = celular;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public String mostrarMailYUsuario(){
+        return "El Usuario " + nombre + " tiene el siguiente E-mail: " + email;
+    }
+    
     @Override
     public String toString() {
         return "Usuario{" + "nombre=" + nombre + ", dni=" + dni + ", celular=" + celular.getModelo() + '}';

@@ -17,7 +17,7 @@ public class Ejercicio_5 {
         Computadora computadora = new Computadora("HP", "SN123", "ASUS U6540", "AMD 3778");
         
          // Establecemos la asociación bidireccional entre el propietario y la computadora
-        computadora.setPropietario(propietario);
+        
         propietario.setComputadora(computadora);
         
          // Mostramos los datos del propietario y la computadora por consola
