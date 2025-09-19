@@ -12,14 +12,14 @@ public class Ejercicio_8 {
     public static void main(String[] args) {
         
         // Instanciamos un usuario 
-        Usuario usuario_3 = new Usuario("Carol Madelón","el_89@gmail.com");
+        Usuario usuario_3 = new Usuario("Leonardo Madelón","leonardoCarol_89@gmail.com");
         
         // Instanciamos un documento
         Documento documento_3 = new Documento("Motivacion en el deporte","Es logico pensar que...");
         
         // Asociamos una firma digital al documento - composición (la firma digital forma parte del documento)
         // También se usa el objeto Usuario dentro de la firma digital - agregación
-        documento_3.setFirmaDigital("cnvcn45456445", "28/02/2030", usuario_3);
+        documento_3.setFirmaDigital("be0c7c34f6d804019e1190", "28/02/2030", usuario_3);
         
         // Mostramos los datos de la firma digital
         documento_3.mostrarFirmaDigital();
